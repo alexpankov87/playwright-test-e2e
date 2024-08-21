@@ -1,4 +1,4 @@
-# playwright-test-e2e - need add dependecies "playwright & http-server"
+# playwright-test-e2e - need to add dependencies
 
 # npm run start - http-server
 
