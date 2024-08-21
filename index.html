@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Digit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="grid-section">
+        <article class="main-article">
+            <h1>Random Digits</h1>
+            <article class="box-digit">
+                <div class="digit-total-number">
+                </div>
+            </article>
+            <button class="btn-digits" type="submit">Запуск</button>
+        </article>
+    </section>
+</body>
+</html>
+<script>
+    document.querySelector('.btn-digits').addEventListener('click', function() {
+        let randomАddNumber;
+        do {
+            randomАddNumber = Math.floor(Math.random() * 100);
+        } while (randomАddNumber % 2 === 0); 
+
+        document.querySelector('.digit-total-number').textContent = randomАddNumber;
+        this.style.display = 'none';
+    });
+</script>

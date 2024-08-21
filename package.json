@@ -1,0 +1,23 @@
+{
+  "name": "random_diggits",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.46.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "http-server": "^14.1.1"
+  },
+  "keywords": [],
+  "description": ""
+}
