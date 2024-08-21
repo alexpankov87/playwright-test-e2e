@@ -2,4 +2,4 @@
 
 # npm run start - http-server
 
-# npx playwrgiht test - start test 
+# npx playwright test - start test 
